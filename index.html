@@ -14,10 +14,10 @@ Realizar el seminario de visualización de datos. A partir de un data set, se qu
 En este trabajo se mostrarán las dificultades encontradas al trabajar con gran cantidad de datos en la visualización, cómo manejar esos datos, y cómo mostrar información a una audiencia.<br><br>
 <b>Audiencia</b><br><br>
 Principalmente la audiencia será el profesor de la asignatura, y ocasionalmente estudiantes del máster: Big Data Data Sciencie.<br><br>
-Aunque se pretende hacer una exposición sencilla a partir de multitud de datos. se podría considerar una audiencia al sector periodistico, a futuros viajeros, y a personal del sector utrístico Español.<br><br>
+Aunque se pretende hacer una exposición sencilla a partir de multitud de datos, también se podría considerar una audiencia al sector periodistico, a futuros viajeros, y a personal del sector turístico Español.<br><br>
 <b>Herramientas</b><br><br>
-Se hace uso de Tableau para las visualizaciones, por su facilidad de manejo, y porque se usó en la asignatura. Así se quiere afianzar los conocimientos adquiridos.<br><br>
-Se usa excel en un primer momento para hacer un primer estudio de los datos.<br><br>
+Se hace uso de Tableau para las visualizaciones, por su facilidad de manejo, y porque se usó en la asignatura, a modo de práctica. Así se quiere afianzar los conocimientos adquiridos.<br><br>
+Se usa excel en un primer momento para hacer un primer estudio de los datos. Los datos se sacan en bruto del Instituto nacional de Estdística y hay que hacer un primer estudio para ver el tipo de dato, cómo están distribuidos, si se puede hacer alguna agrupación previa, si es mejor realizar algún cálculo en concreto.<br><br>
 Se usa stackblitz para realizar la visualización web del proyecto completo.<br><br>
 
  <h1>¿Dónde y cuándo viajar más barato en España?</h1>
@@ -26,7 +26,7 @@ A partir de los datos recogidos por es Instituto Nacional de Estadística se pre
 Datos recopilados del Instituto Nacional de Estadística: <a href ="http://www.ine.es/dyngs/INEbase/categoria.htm?c=Estadistica_P&cid=1254735576863">http://www.ine.es/dyngs/INEbase/categoria.htm?c=Estadistica_P&cid=1254735576863</a><br> <br>
 
 <b>Hablando sobre turismo</b><br><br>
-
+<b>¿Cuándo hay más movimiento de turistas en España?</b><br><br>
 Se visualiza el número de viajes que tienen lugar en España por trimestre:<br>
 <ul>
 <li>Primer trimestre: enero, febrero, marzo.</li><br>
@@ -35,7 +35,8 @@ Se visualiza el número de viajes que tienen lugar en España por trimestre:<br>
 <li>Cuarto trimestre: octubre, noviembre, diciembre.</li><br>
 </ul>
 <img src="https://raw.githubusercontent.com/Irache/AG1-07Visualizacion/Pr%C3%A1ctica/Hoja2.png" alt="Num. viajes por trimestre" border="2"> <br><br>
-El mayor número de viajeros se mueve los meses de julio, agosto y septiembre.<br><br>
+El mayor número de viajeros se mueve los meses de julio, agosto y septiembre.<br>
+Es decir, si buscas encontrar un menor número de turistas elige (y puedes) viajar en octubre, noviembre o diciembre.<br
 Dividiendo por tipo de alojamiento se puede hacer la siguiente clasificación:<br><br>
 <ul>
 <li>Hoteles.</li><br>
@@ -43,13 +44,15 @@ Dividiendo por tipo de alojamiento se puede hacer la siguiente clasificación:<b
 <li>Apartamentos.</li><br>
 <li>Albergues.</li><br>
 </ul>
+<b>¿Cuánto cuesta un alojamiento en España?</b><br><br>
 Los datos que se van a mostrar son los recogidos por el "Índice de precios hoteleros" es una medida estadística de la evolución del conjunto de precios aplicados por los empresarios a los distintos clientes que se alojan en los hoteles de España. Mide, por tanto, la evolución de los precios del sector desde la óptica de la oferta.
-Se recopilan datos del año 2018. He seleccionado estos datos por la dificultad en su representación al encontrarse con un gran número de datos 62 provincias y 12 meses.<br>
+Se recopilan datos del año 2018.<br>
+He seleccionado estos datos por la dificultad en su representación al encontrarse con un gran número de datos 62 provincias y 12 meses.<br>
 En este caso si hacemos una representación clásica de barras habría demasiada información y el destinatario de la visualización se puede perder en el mar de datos. Para ejemplificar este problema vease la figura 1:
 <img src="https://raw.githubusercontent.com/Irache/js-axue8c/master/hoteles%20ocupacion%20orden1.png" alt="Num. ocupación hoteles" border="2"><br><br>
 Para resolver este problema se hace un filtrado de los datos mostrando aquellos significativos dentro de los datos.
 
-Grado de ocupación por plaza (porcentaje)
+
 <ul>
 <li>Enero: Santa Cruz de Tenerife, Canarias, Las Palmas, Ceuta, Madrid, Alicante, Sevilla, Barcelona, Melilla, Málaga.</li><br>
 <li>Febrero:  Santa Cruz de Tenerife, Canarias, Las Palmas, Ceuta, Madrid, Sevilla, Alicante, Barcelona, Valencia, Granada.</li><br>
@@ -78,15 +81,6 @@ Grado de ocupación por plaza (porcentaje)
 <img src="https://raw.githubusercontent.com/Irache/js-axue8c/master/noviembre.png" alt="Diez primeros destinos. Mes: Noviembre" border="2"><br><br>
 <img src="https://raw.githubusercontent.com/Irache/js-axue8c/master/Diciembre.png" alt="Diez primeros destinos. Mes: Diciembre" border="2"><br><br>
 
-
-
-
-
-
-
-
-
-El Índice de precios hoteleros es una medida estadística de la evolución del conjunto de precios aplicados por los empresarios a los distintos clientes que se alojan en los hoteles de España. Mide, por tanto, la evolución de los precios del sector desde la óptica de la oferta.
 
 
 
